@@ -47,7 +47,7 @@ db.once("open", () => {
 
 const app = express();
 
-app.set('view engine','html');
+
 app.engine('ejs', ejsMate)
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'))
